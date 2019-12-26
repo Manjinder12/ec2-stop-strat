@@ -1,0 +1,12 @@
+first of all setting up ec2 iam user on your machine terminal with iam user access key and secret key.
+
+Then create the script on your terminal bash file.
+
+touch ec2stoptinstance.sh
+
+
+#!/bin/bash
+
+#Stop EC2 instance
+
+aws ec2 stop-instances --instance-ids i-09c922c96c8ae82b9
